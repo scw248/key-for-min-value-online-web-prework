@@ -6,7 +6,6 @@ def key_for_min_value(name_hash)
   least = nil
   
   name_hash.each do |item, amount|
-    least = amount
     if amount < least
       least = amount
       least_item = item
