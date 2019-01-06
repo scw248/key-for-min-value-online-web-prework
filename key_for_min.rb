@@ -4,11 +4,13 @@
 def key_for_min_value(name_hash)
   return nil if name_hash.length == 0
   
-  name_hash.each do |item, amount1|
+  name_hash.each do |item, amount|
     least = amount
+    least_item = item
     if amount < least
       least = amount
-      return item
+      least_item = item
     end
   end
+  item
 end
