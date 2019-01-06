@@ -9,4 +9,5 @@ def key_for_min_value(name_hash)
     if amount < least
       least = amount
   end
+  least
 end
