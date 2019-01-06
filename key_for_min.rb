@@ -10,6 +10,6 @@ def key_for_min_value(name_hash)
       least = amount
       least_item = item
     end
-    least_item
+    
   end
 end
